@@ -3,14 +3,15 @@ import styled from 'styled-components';
 import { reviewData } from './assets/reviewData';
 
 const Card = styled.div`
-	width: 80%;
-	height: 60%;
+	width: 600px;
+	height: 300px;
   padding: 0 2rem;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+  margin: 1rem;
 `;
 
 const Review = styled.p`
@@ -22,11 +23,12 @@ const Author = styled.p`
   margin: 0.5rem;
 `;
 
-const CarouselCard = () => {
+const CarouselCard = ({ idx }) => {
+
 	return (
 		<Card>
-			<Review>{reviewData[0].review}</Review>
-			<Author>{reviewData[0].name}</Author>
+			<Review>{reviewData[idx].review}</Review>
+			<Author>{reviewData[idx].name}</Author>
 		</Card>
 	);
 };

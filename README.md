@@ -8,7 +8,7 @@ This is a mock quote carousel I am building for future projects. The goal is to 
 
 - React
 - Styled Components
-- AnimXYZ
+- Framer-Motion
 
 ## Installation
 
