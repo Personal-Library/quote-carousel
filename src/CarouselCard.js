@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { reviewData } from './assets/reviewData';
 
 const Card = styled.div`
-	width: 600px;
+	width: 500px;
 	height: 300px;
   padding: 0 2rem;
 	background-color: white;
