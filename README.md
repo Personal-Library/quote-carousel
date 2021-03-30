@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a mock quote carousel I am building for future projects. The goal is to have a lightweight, smooth carousel primarily for testimonials.
+This is a mock quote carousel I am building for future projects. The goal is to have a lightweight, smooth testimonials carousel that has customizable animations and is debounced to prevent click spam.
 
 ## Technologies
 
@@ -31,6 +31,8 @@ Install dependencies
 ## Usage
 
 The user should be able to see a styled quote carousel, which transitions on interval, has buttons to move forward and back, and has smooth animations.
+
+![Demo of the quote carousel](https://media.giphy.com/media/r2eHx9ZngcMKGReKKJ/giphy.gif)
 
 ## Contributing
 
